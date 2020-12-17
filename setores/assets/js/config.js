@@ -11,7 +11,11 @@ const infos = {
   },
   e2: {
     title: "Gestão Normativa",
-    descricao: "Gestão Normativa",
+    descricao: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus, justo et egestas dictum, orci urna gravida arcu, in imperdiet
+    mauris sem sit amet mauris. Phasellus velit felis, pellentesque quis vestibulum congue, hendrerit vitae risus. Interdum et
+    malesuada fames ac ante ipsum primis in faucibus. Pellentesque posuere porta cursus. Mauris sit amet pretium est. Mauris at
+    nunc sollicitudin, vestibulum mauris eget, iaculis orci. Praesent non urna ut tellus mattis consequat. Maecenas cursus mauris vitae
+    mi tempus sodales. Quisque interdum dui a dolor egestas, convallis facilisis orci congue.`,
     grupo: `<div class='col s2 offset-s2 setoresTag'>Tático</div>`,
     segments: [
       { id: "c1", class: "inative" },

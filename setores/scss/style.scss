@@ -9,15 +9,16 @@ $vermelho: #d62828;
 $laranja: #f9a03f;
 $laranjaEscuro: #f86624;
 $verdeLimao: #b6c931;
+$timeMotion: 0.3s;
 
 body {
   font-size: 12px;
 }
 
 %transicao {
-  transition: all 0.3s linear !important;
-  -webkit-transition: all 0.3s linear !important;
-  -moz-transition: all 0.3s linear !important;
+  transition: all $timeMotion linear !important;
+  -webkit-transition: all $timeMotion linear !important;
+  -moz-transition: all $timeMotion linear !important;
 }
 
 #tabelaGeral {
@@ -192,6 +193,9 @@ body {
     .card-mural {
       cursor: pointer;
       display: grid;
+      img {
+        width: 100%;
+      }
     }
     .card-mural:hover {
       opacity: 0.8;
